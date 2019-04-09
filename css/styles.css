@@ -1,0 +1,45 @@
+body {
+  background-color:#BFD8D2;
+  font-family: 'Judson', serif;
+
+}
+
+
+input[type=button] {
+  color:white;
+  margin: 10px;
+  text-align: center;
+}
+
+
+h1{
+  font-size:70px;
+  color:#DF744A;
+  /* background-color: #BFD8D2; */
+}
+
+h3  {
+  text-align: center;
+}
+
+p  {
+  text-align: center;
+    border:1px solid black;
+    background-color: white;
+}
+
+
+h4  {
+  text-align: center;
+}
+
+.btn {
+  font-size: 15px;
+}
+
+#items {
+
+
+  color: #FEDCD2;
+  /* margin: .5px; */
+}

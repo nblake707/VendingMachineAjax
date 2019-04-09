@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet">-
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- added to make sure that the site is responsive.
+      This will set the viewport of your page, which
+      will give the browser instructions on how to control
+      the page's dimensions and scaling.
+   -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Vending Machine Front End</title>
+
+    <meta name="author" content="Nateyana">
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+
+    <h1 class="text-center">Vending Machine</h1>
+    <hr/>
+
+    <div class="container-fluid">
+	<div class="row">
+
+    <div class="col-md-8">
+			<div class="row" id="items">
+
+      </div>
+    </div>
+
+
+
+     <!-- menu stuff -->
+
+    <div class="col-md-4" >
+
+      <div id="moneyScreen">
+        <form>
+          <h3>Total $ in:</h3>
+          <input type="text" id="number" value="0"/>
+            <br/>
+            <br/>
+          <input type="button"  id="addDollars" value="addDollar">
+          <input type="button" id="AddQuarter" value="AddQuarter">
+      <br/>
+          <input type="button" id="addNickel" value="AddNickel">
+          <input type="button" id="addDime" Value="addDime">
+          </form>
+        </div>
+
+        <hr/>
+
+
+    <div id="messages">
+      <h3>Messages</h3>
+      <form>
+      <input type="text" id="messageCenter" value=" " ></input>
+    <label for="itemId">Item Id</label>
+    <input type="text" id="itemIdCenter"></input>
+    <input type="button" id="submit" value="submit">
+    </form>
+    </div>
+    <hr/>
+
+
+		<div id="change">
+			<h3>Change:</h3>
+        <input type="text" id="changeMessage" value=" "></input>
+      <form>
+			<!-- <input type="text" id="changeReturn"></input> -->
+      <input type="button" id="changeReturn" value="Change Return">
+    </form>
+		</div>
+
+	</div>
+</div>
+
+<!-- <script src="js/jquery-2.2.4.min.js"></script> -->
+  <script src="js/home.js"></script>
+
+  </body>
+</html>
